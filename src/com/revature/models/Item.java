@@ -53,6 +53,15 @@ public class Item {
 	public String getExpiration() {
 		return expiration;
 	}
+
+
+	@Override
+	public String toString() {
+		return "Item [name=" + name + ", price=" + price + ", description=" + description + ", expiration=" + expiration
+				+ "]";
+	}
+	
+	
 	
 	
 
